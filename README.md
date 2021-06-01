@@ -1,6 +1,6 @@
 # Data Science Portfolio | Matthew Shedden
 This portfolio contains a selection of data analysis and machine learning projects I have conducted. Some work-in-progress notebooks can be found on [Kaggle](https://www.kaggle.com/mattshedden).
-## English Premier League results
+## English Premier League results, analysis
 Exploratory data analysis is performed on EPL results, forked from [Stoijkovic, et al.](https://github.com/datasets/football-datasets). The **first** objective is to transform the data into a readable format, before trends in results and determinant factors of match results are identified. **Second**, a Shallow Regressor is created to predict the correct number of goals scored based upon other match-related statistics. **Third**, a Shallow Classifier is created to predict the correct outcome of the game for each team, based upon match statistics and previous results.
 - The Python notebook is provided **here**.
 ## Spotify genre predictions, shallow ML
