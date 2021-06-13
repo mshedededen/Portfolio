@@ -10,5 +10,5 @@ An Deep Learning project using Natural Language Processing ("NLP") on Tender Sea
 Genetic Algorithms are an optimization and Machine Learning method that applies Neo-Darwinism evolutionary theory to perform an exhaustive search of all possible combinations. Genetic Algorithms have a variety of use-cases, from the [Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem) to Portfolio Optimisation, which shall be explored here. The aim of this project is to use R and Genetic Algorithms to find the best possible weighting of a basket of stocks, given a specific level of risk tolerance.
 - The R notebook is provided [**here**](https://github.com/mshedededen/Portfolio/blob/main/Notebooks/Portfolio%20Optimization%20(Markowitz)%20using%20Genetic%20Algorithms%20in%20R.ipynb).
 ## Web scraping jobs on Indeed
-Project to build an ETL process which scrapes jobs from Indeed.com.
-- The Python notebook is provided **here**.
+This project is inspired by job hunting in anticipation for finishing my postgraduate studies. Finding the right job is time-consuming. Therefore, this project has dual benefit of increasing the efficiency by which I find jobs as well as improving my abilities in web scraping. The aim of this project is to build an ETL pipeline that scrapes jobs from Indeed.com which match keyword findings across various roles.
+- The Python notebook is provided [**here**](https://github.com/mshedededen/Portfolio/blob/main/Notebooks/Job%20scraper.ipynb).
