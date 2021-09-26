@@ -11,4 +11,4 @@ Genetic Algorithms are an optimization and Machine Learning method that applies 
 - The R notebook is provided [**here**](https://github.com/mshedededen/Portfolio/blob/main/Notebooks/Portfolio%20Optimization%20(Markowitz)%20using%20Genetic%20Algorithms%20in%20R.ipynb).
 ## Web scraping jobs on Indeed
 This project is inspired by job hunting in anticipation for finishing my postgraduate studies. Finding the right job is time-consuming. Therefore, this project has dual benefit of increasing the efficiency by which I find jobs as well as improving my abilities in web scraping. The aim of this project is to build an ETL pipeline that scrapes jobs from Indeed.com which match keyword findings across various roles.
-- The Python notebook is provided [**here**](https://github.com/mshedededen/Portfolio/blob/main/Notebooks/Job%20scraper.ipynb).
+- The Python notebook is provided [**here**](https://github.com/mshedededen/Portfolio/blob/main/Python-WebScraping/Job%20scraper.ipynb).
