@@ -10,4 +10,5 @@ The genesis of this template was one I made personally, for myself. When a frien
 - Google Sheets version ([link](https://docs.google.com/spreadsheets/d/1ZtW-rv4yWclV5hM-VKQsa1tGJR2S9TNtOImD2AWjgpQ/edit?usp=sharing), then download).
 
 ## Friendly reminder demo
-Coming soon.
+Using a list of generated friends the user can randomise and track friends they have been keeping in contact with, and identify friends they are inadvertently losing touch with. This project was a quick one which mainly focusses on Python programming skills. View project [here](https://github.com/mshedededen/Portfolio/tree/main/Mini-projects/FriendlyReminder).
+Update: This project has been put on temporary hiatus as next stage of 'FriendlyReminder' is being conducted as part of a small group. Click to see the application here: ['Smart Contact Reminder'](https://play.google.com/store/apps/details?id=me.barta.stayintouch&hl=en_GB&gl=US).
