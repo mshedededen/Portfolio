@@ -1,18 +1,21 @@
 # Project overview
+- **Purpose**: Trial version of a side project for my full-time job within a Scotland-based Investment Fund. 
+- **Outline**: An all-in-one dashboard that allows *everyone* in the Investment Team to view, analyse, and make decisions based on quantitative data as well as internal and external research.
+- **Problem**: A plethora of quantitative and qualitative research produced by Investment Analysts gets quickly dusty and forgotten about. Retreiving research is cumbersome (in disparate Word and Excel files) which is acted upon at monthly meetings.
 
-**Purpose**: Trial version of a project I am doing as part of my full-time job within a Scotland-based Investment Fund. The aim is to build a database comprising of tables which ingest **1)** stock data; **2)** ad-hoc investment thesis data; and **3)** ongoing company news data. Thereafter, data will be fed into a dashboard to provide an interface which allows members of the investment team to easily track performance and (if desired) updated investment theses.
+---
 
-**Tools used**: SQL (Postgres database), Python (incl. Quandl package), Microsoft Excel (for qualitative data), Power BI (for dashboard), "UNKNOWN" (for automating scripting).
+# Project outline
+1. Build a database containing: **1)** a list of 'preferred' stocks; **2)** stock data that is automatically ingested; and **3)** ad-hoc investment thesis data.
+2. Set up a custom spreadsheet where analysts - who typically only know how to use Excel and nothing else - can input ongoing company news data with ease.
+3. Build a dashboard (Power BI) connecting all datasets together.
+4. (optional) Enable analysts' company forecasts (DCF, multiples, comps) and company financials to be viewed in the same dashboard.
 
-**Contents**:
-...
+**Tools used**: 
+- SQL ([code](https://github.com/mshedededen/Portfolio/blob/main/Mini-projects/Equity%20research%20dashboard/invested_companies%20code.sql)): PostgreSQL database is constructed (experience gained in pgAdmin and psql command line).
+- Python ([code](https://github.com/mshedededen/Portfolio/blob/main/Mini-projects/Equity%20research%20dashboard/prices_companies_fetch.py)): Streamlined script for inserting share prices on a weekly basis.
+- Microsoft Excel and VBA: Spreadsheets where analysts insert qualitative information and financial forecasts.
+- Power BI ([file](https://github.com/mshedededen/Portfolio/blob/main/Mini-projects/Equity%20research%20dashboard/Equity%20research%20dashboard.pbix)): For VBA dashboard.
+- uiPath: For automatic scripting.
 
-
-**Initial Plan**:
-1.  Build a table (qualitative) of companies that we invest in. The column headings will be *ticker* **(primary key)**, *company_name*, *country_listed*, *date_first_investment*, *date_sold_investment*.
-2.  Build a table (quantitative) including prices (daily close) of invested companies. The column headings will be *ticker*, *date*, *price_close*.
-    N.B. I want this table to be updated automatically on a weekly basis. Therefore I need code which fetches prices and appends to current table.
-3.  Build a table (qualitative) including Investment thesis. The column headings will be *ticker*, *date_update*, *thesis*, *risks*, *about_company*.
-4.  Build a table (qualitative) including Company News. The column headings will be *ticker*, *date*, *company_news*.
-
-Disclaimer: All data presented in this project is **unrelated** to my current employer, McInroy & Wood Ltd. Therefore, no breaches of confidentiality are met.
+Disclaimer: All data presented in this project is **unrelated** to my current employer, McInroy & Wood Ltd. Therefore, no breaches of confidentiality are observed.
