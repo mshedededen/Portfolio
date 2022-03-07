@@ -27,3 +27,12 @@ CREATE TABLE prices_companies (
     price_close NUMERIC             /* prices can be null, should markets be closed on a given date */
 );
 
+/* CREATE financials_companies TABLE */
+CREATE TABLE financials_companies (
+    ticker TEXT NOT NULL,
+    statement TEXT NOT NULL,
+    line_item TEXT NOT NULL,
+    date DATE NOT NULL,
+    value NUMERIC,
+    financialyear TEXT NOT NULL
+);
