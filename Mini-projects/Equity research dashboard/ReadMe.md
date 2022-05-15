@@ -6,10 +6,17 @@
 ---
 
 # Project outline
-1. Build a database containing: **1)** a list of 'preferred' stocks; **2)** stock data that is automatically ingested; and **3)** ad-hoc investment thesis data.
-2. Set up a custom spreadsheet where analysts - who typically only know how to use Excel and nothing else - can input ongoing company news data with ease.
-3. Build a dashboard (Power BI) connecting all datasets together.
-4. (optional) Enable analysts' company forecasts (DCF, multiples, comps) and company financials to be viewed in the same dashboard.
+1. Set up custom spreadsheets where investment analysts - whose knowledge of Excel and other packages is typically limited - can input **internal** data related to:
+  - Portfolio positions log
+  - Portfolio positions thesis (additions only) log
+  - Company news log
+  - Ongoing company meeting(s) log
+  - ESG engagement(s) log
+3. Build a database for **external** data collected based off internal data, which contains pricing information, among others, based on portfolio positions.
+4. Build a series of dashboards, using Power BI, which connects all datasets together:
+  - Current portfolio positions.
+  - Positions review document.
+  - Financial analysis (optional).
 
 **Tools used**: 
 - SQL ([code](https://github.com/mshedededen/Portfolio/blob/main/Mini-projects/Equity%20research%20dashboard/invested_companies%20code.sql)): PostgreSQL database is constructed (experience gained in pgAdmin and psql command line).
