@@ -1,4 +1,4 @@
-# Mini Projects | Matthew Shedden
+# Projects | Matthew Shedden
 *The objective of these projects is to challenge myself, help others, and prototype ideas. I hopefully will build this out over the next year, concurrent to my day-job.*
 
 ## Budget and Investment Tracker template
