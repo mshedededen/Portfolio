@@ -1,4 +1,4 @@
-# Mini Projects | Matthew Shedden
+# Projects | Matthew Shedden
 *The objective of these projects is to challenge myself, help others, and prototype ideas. I hopefully will build this out over the next year, concurrent to my day-job.*
 
 ## Budget and Investment Tracker template
@@ -22,7 +22,7 @@ Using a list of generated friends the user can randomise and track friends they 
 
 ## Equity Research Dashboard
 
-*February 2022*
+*February - May 2022*
 
 Custom dashboard which aggregates external financial information from companies with internal research notes. Project is designed to be functional for 'non-technical' persons, with internal data input from Microsoft Excel into a PostgreSQL database and then, once data has been compiled, into a ... dashboard.
 
