@@ -6,14 +6,21 @@
 ---
 
 # Project outline
-1. Set up custom spreadsheets where investment analysts - whose knowledge of Excel and other packages is typically limited - can input **internal** data related to:
-  - Portfolio positions log
-  - Portfolio positions thesis (additions only) log
-  - Company news log
-  - Ongoing company meeting(s) log
-  - ESG engagement(s) log
-3. Build a database for **external** data collected based off internal data, which contains pricing information, among others, based on portfolio positions.
-4. Build a series of dashboards, using Power BI, which connects all datasets together:
+***Note**: Internal and external processes are not reliant on one-another. External processes may fail, but there will always be a location where information is aggregated.*
+1. Set up custom spreadsheets where investment analysts can input **internal** data related to:
+  - Portfolio positions log ([link]()): Monitor current and past positions, qualiatively. 
+  - Portfolio primer research log ([link]()): Explore past and present theses connecting investments together.
+  - Company news log ([link]()): Log news coverage internally generated on portfolio companies.
+  - Ongoing company meeting log ([link]()): Log meetings held with portfolio companies, non-portfolio companies, and industries.
+  - ESG engagement log ([link]()): Log ESG engagements with portfolio companies, non-portfolio companies, and industries.
+
+  *For general, durable use: must be easy to update (information), difficult to ruin (format)*
+
+2. Build a database for **external** data collected based off internal data, which contains pricing information, among others, based on portfolio positions.
+
+  *This must scale by be kept simple (storage may gradually become a concern)*
+
+3. Build a series of dashboards, using Power BI, which connects all datasets together:
   - Current portfolio positions.
   - Positions review document.
   - Financial analysis (optional).
