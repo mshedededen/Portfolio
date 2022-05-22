@@ -8,11 +8,11 @@
 # Project outline
 ***Note**: Internal and external processes are not reliant on one-another. External processes may fail, but there will always be a location where information is aggregated.*
 1. Set up custom spreadsheets where investment analysts can input **internal** data related to:
-  - Portfolio positions log ([link]()): Monitor current and past positions, qualiatively. 
-  - Portfolio primer research log ([link]()): Explore past and present theses connecting investments together.
-  - Company news log ([link]()): Log news coverage internally generated on portfolio companies.
-  - Ongoing company meeting log ([link]()): Log meetings held with portfolio companies, non-portfolio companies, and industries.
-  - ESG engagement log ([link]()): Log ESG engagements with portfolio companies, non-portfolio companies, and industries.
+  - Portfolio positions log ([link](https://github.com/mshedededen/Portfolio/blob/main/Projects/Investment%20monitoring%20workflow/1%20Portfolio%20positions%20log.xlsx)): Monitor current and past positions, qualiatively. 
+  - Portfolio primer research log ([link](https://github.com/mshedededen/Portfolio/blob/main/Projects/Investment%20monitoring%20workflow/2%20Portfolio%20research%20log.xlsx)): Explore past and present theses connecting investments together.
+  - Company news log ([link](https://github.com/mshedededen/Portfolio/blob/main/Projects/Investment%20monitoring%20workflow/3%20Company%20news%20log.xlsx)): Log news coverage internally generated on portfolio companies.
+  - Ongoing company meeting log ([link](https://github.com/mshedededen/Portfolio/blob/main/Projects/Investment%20monitoring%20workflow/4%20Ongoing%20company%20meeting(s)%20log.xlsx)): Log meetings held with portfolio companies, non-portfolio companies, and industries.
+  - ESG engagement log (link): Log ESG engagements with portfolio companies, non-portfolio companies, and industries.
 
   *For general, durable use: must be easy to update (information), difficult to ruin (format)*
 
@@ -26,10 +26,10 @@
   - Financial analysis (optional).
 
 **Tools used**: 
-- SQL ([code](https://github.com/mshedededen/Portfolio/blob/main/Mini-projects/Equity%20research%20dashboard/invested_companies%20code.sql)): PostgreSQL database is constructed (experience gained in pgAdmin and psql command line).
-- Python ([code](https://github.com/mshedededen/Portfolio/blob/main/Mini-projects/Equity%20research%20dashboard/prices_companies_fetch.py)): Streamlined script for inserting share prices on a weekly basis.
+- SQL ([code](https://github.com/mshedededen/Portfolio/blob/main/Projects/Investment%20monitoring%20workflow/invested_companies%20code.sql)): PostgreSQL database is constructed (experience gained in pgAdmin and psql command line).
+- Python ([code](https://github.com/mshedededen/Portfolio/blob/main/Projects/Investment%20monitoring%20workflow/5%20prices_companies_fetch.py)): Streamlined script for inserting share prices on a weekly basis.
 - Microsoft Excel and VBA: Spreadsheets where analysts insert qualitative information and financial forecasts.
-- Power BI ([file](https://github.com/mshedededen/Portfolio/blob/main/Mini-projects/Equity%20research%20dashboard/Equity%20research%20dashboard.pbix)): For VBA dashboard.
+- Power BI ([file](https://github.com/mshedededen/Portfolio/blob/main/Projects/Investment%20monitoring%20workflow/6%20Equity%20research%20dashboard%20for%20monthly%20meeting.pbix)): For VBA dashboard.
 - uiPath: For automatic scripting.
 
 Disclaimer: All data presented in this project is **unrelated** to my current employer, McInroy & Wood Ltd. Therefore, no breaches of confidentiality are observed.
