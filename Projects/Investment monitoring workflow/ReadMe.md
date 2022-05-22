@@ -33,3 +33,7 @@
 - uiPath: For automatic scripting.
 
 Disclaimer: All data presented in this project is **unrelated** to my current employer, McInroy & Wood Ltd. Therefore, no breaches of confidentiality are observed.
+
+**PowerBI dashboard shown below**
+
+![image](https://user-images.githubusercontent.com/70542502/169715852-20deb713-2d90-46ae-befc-d034018bbc70.png)
