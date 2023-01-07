@@ -4,6 +4,7 @@ This GitHub repository contains data science portfolio projects I have conducted
 Some work-in-progress notebooks can be found on [Kaggle](https://www.kaggle.com/mattshedden).
 
 **Code base**: Python, R, SQL, Bash, Powershell.
+
 **Software**: PostgreSQL, Git, 
 
 ## English Premier League results, analysis
