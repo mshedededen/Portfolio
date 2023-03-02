@@ -1,4 +1,4 @@
-# Gallovidia Investments codebase
+# Gallovidia Investments
 *WIP codebase for developing a bespoke, open-source, real-world **investment management system***
 
 ## Elements / tables / code
