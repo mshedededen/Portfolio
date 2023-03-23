@@ -14,7 +14,7 @@ def transactions_launcher():
             print("Launching transaction recorder...")
             # launch transactions recorder function
             transactions_recorder()
-            break
+            continue
         elif launch_input == "EXIT":
             break
         else:
